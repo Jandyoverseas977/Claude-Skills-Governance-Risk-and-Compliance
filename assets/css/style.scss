@@ -3,8 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* ── Header: reduce all dimensions by 25% ── */
-
 /* Large screens (≥ 64em) — theme defaults: padding 5rem 6rem, title 3.25rem, tagline 1.25rem */
 @media screen and (min-width: 64em) {
   .page-header        { padding: 3.75rem 4.5rem; }

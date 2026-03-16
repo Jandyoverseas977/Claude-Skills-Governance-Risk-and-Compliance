@@ -1,5 +1,7 @@
 # Claude Skills for Governance, Risk & Compliance (GRC)
-Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, and HIPAA — powered by Claude Skills. Benchmarked across 10 test cases (2 per framework) using eval framework — each graded against 7 verifiable assertions by independent agents. Skills scored **99% ± 4%** vs a baseline of 93% ± 7%.
+Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, and HIPAA — powered by Claude Skills. 
+
+Benchmarked across 10 test cases (2 per framework) using eval framework — each graded against 7 verifiable assertions by independent agents. Skills scored **99% ± 4%** vs a baseline of 93% ± 7%.
 
 [![Release: v1.0.0](https://img.shields.io/badge/Release-v1.0.0-brightgreen.svg)](../../releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -239,8 +241,7 @@ Contributions are welcome and encouraged. To contribute:
 **Hemant Naik**
 [LinkedIn](https://www.linkedin.com/in/tanaji-naik/) · [hemant.naik@gmail.com](mailto:hemant.naik@gmail.com)
 
-Built with [Claude](https://claude.ai) using the Claude Skill Creator framework.
-March 2026
+Built March 2026
 
 ---
 
