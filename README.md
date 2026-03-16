@@ -1,6 +1,6 @@
 # Claude Skills for Governance, Risk & Compliance (GRC)
 
-Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, and HIPAA — powered by Claude Skills.
+> Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, and HIPAA — powered by Claude Skills.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skills: 5](https://img.shields.io/badge/Skills-5-green.svg)](#the-skills)
@@ -11,15 +11,16 @@ Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, and HIPAA 
 ## Table of Contents
 
 - [What Are Claude Skills?](#what-are-claude-skills)
-- [How to Install a Skill](#how-to-install-a-skill)
+- [Who Is This For?](#who-is-this-for)
 - [The Skills](#the-skills)
   - [ISO 27001](#-iso-27001)
   - [SOC 2](#-soc-2)
   - [FedRAMP](#-fedramp)
   - [GDPR](#-gdpr)
   - [HIPAA](#-hipaa)
-- [Who Is This For?](#who-is-this-for)
 - [Potential Use Cases](#potential-use-cases)
+- [How to Install a Skill](#how-to-install-a-skill)
+- [Skill Evaluation](#skill-evaluation)
 - [Support & Contributing](#support--contributing)
 - [Author](#author)
 - [Disclaimer](#disclaimer)
@@ -41,14 +42,21 @@ Once installed, a skill activates **automatically** when your conversation touch
 
 ---
 
-## How to Install a Skill
+## Who Is This For?
 
-1. Download the `.skill` file for the framework you need from this repository (see the folders below).
-2. Open Claude and navigate to **Settings → Skills**.
-3. Click **Upload Skill** and select the `.skill` file.
-4. The skill is now active. Start a new conversation and ask your compliance question — Claude will automatically apply the skill.
+These skills are designed for professionals who work on information security, privacy, and regulatory compliance — whether at organizations seeking certification, development teams building compliant systems, or advisors supporting clients.
 
-> **Tip:** You can install multiple skills at once. If you work across several frameworks (e.g., both ISO 27001 and SOC 2), install all of them — Claude will activate whichever is most relevant to each question.
+**Security & Compliance Teams** use these skills to accelerate gap assessments, generate first-draft policies, map controls, and prepare evidence packages — compressing weeks of reference work into minutes.
+
+**Software Developers & Engineers** use them to understand what controls their systems must implement, audit code and architecture for compliance issues, and get actionable technical guidance tied to specific regulatory requirements.
+
+**Legal, Privacy & GRC Professionals** use them to draft regulatory documents (DPAs, BAAs, privacy notices), answer client questions with precise regulatory citations, and stay current on framework requirements.
+
+**Healthcare Organizations** use the HIPAA skill to assess systems, generate required notices and agreements, and train staff on obligations — without needing a compliance consultant for every question.
+
+**Cloud Service Providers** pursuing federal government contracts use the FedRAMP skill to navigate the ATO process, write SSP narratives, manage POA&Ms, and prepare for 3PAO assessments.
+
+**Startups and SMBs** use these skills to understand what a given framework requires of them, scope their compliance programs, and get expert-quality output without a large in-house team.
 
 ---
 
@@ -142,24 +150,6 @@ The HIPAA skill turns Claude into a knowledgeable HIPAA compliance advisor cover
 
 ---
 
-## Who Is This For?
-
-These skills are designed for professionals who work on information security, privacy, and regulatory compliance — whether at organizations seeking certification, development teams building compliant systems, or advisors supporting clients.
-
-**Security & Compliance Teams** use these skills to accelerate gap assessments, generate first-draft policies, map controls, and prepare evidence packages — compressing weeks of reference work into minutes.
-
-**Software Developers & Engineers** use them to understand what controls their systems must implement, audit code and architecture for compliance issues, and get actionable technical guidance tied to specific regulatory requirements.
-
-**Legal, Privacy & GRC Professionals** use them to draft regulatory documents (DPAs, BAAs, privacy notices), answer client questions with precise regulatory citations, and stay current on framework requirements.
-
-**Healthcare Organizations** use the HIPAA skill to assess systems, generate required notices and agreements, and train staff on obligations — without needing a compliance consultant for every question.
-
-**Cloud Service Providers** pursuing federal government contracts use the FedRAMP skill to navigate the ATO process, write SSP narratives, manage POA&Ms, and prepare for 3PAO assessments.
-
-**Startups and SMBs** use these skills to understand what a given framework requires of them, scope their compliance programs, and get expert-quality output without a large in-house team.
-
----
-
 ## Potential Use Cases
 
 | Scenario | Relevant Skill(s) |
@@ -180,6 +170,35 @@ These skills are designed for professionals who work on information security, pr
 | Preparing a risk register and treatment plan for an ISMS | ISO 27001 |
 | Transitioning from ISO 27001:2013 to ISO 27001:2022 | ISO 27001 |
 | Preparing for a FedRAMP Rev 4 → Rev 5 transition | FedRAMP |
+
+---
+
+## How to Install a Skill
+
+1. Download the `.skill` file for the framework you need from this repository (see the folders above).
+2. Open Claude and navigate to **Settings → Skills**.
+3. Click **Upload Skill** and select the `.skill` file.
+4. The skill is now active. Start a new conversation and ask your compliance question — Claude will automatically apply the skill.
+
+> **Tip:** You can install multiple skills at once. If you work across several frameworks (e.g., both ISO 27001 and SOC 2), install all of them — Claude will activate whichever is most relevant to each question.
+
+![Installing Skills in Claude](Installing%20Skills%20in%20Claude.png)
+
+---
+
+## Skill Evaluation
+
+These skills were benchmarked using the [Claude Skill Creator](https://claude.ai) eval framework. 10 realistic test cases were run across all 5 skills — 2 per framework — covering gap analysis, policy drafting, control narratives, code audits, and document generation. Each test case was evaluated against 7 objectively verifiable assertions by independent grader agents.
+
+| Configuration | Pass Rate |
+|---------------|-----------|
+| **With GRC Skills installed** | **99% ± 4%** |
+| Without skills (baseline Claude) | 93% ± 7% |
+| **Delta** | **+6 points** |
+
+The skills add the most measurable value on framework-specific tasks: producing correct Annex A control breakdowns for ISO 27001, mapping gaps to CC9 for SOC 2 vendor risk, generating proper formal third-person SSP prose for FedRAMP, handling special category health data correctly under GDPR Art. 9, and consistently including required HIPAA legal disclaimers.
+
+📊 **[View the full eval results →](grc-skills-eval-results.html)**
 
 ---
 
@@ -212,12 +231,6 @@ Contributions are welcome and encouraged. To contribute:
 - All compliance assertions must cite the governing clause, article, or control ID.
 - Skills should include a disclaimer that outputs are informational guidance, not legal advice.
 - Avoid paraphrasing regulatory text in ways that alter its meaning. Where possible, use the authoritative language directly.
-
----
-
-## Installing Skills in Claude
-
-![Installing Skills in Claude](Installing%20Skills%20in%20Claude.png)
 
 ---
 
